@@ -6,7 +6,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
-    <meta name="Renato" content="">
+    <meta name="author" content="">
 
     <title>Renato</title>
 
@@ -23,7 +23,7 @@
 
     <!-- Custom styles for this template -->
     <link href="css/creative.min.css" rel="stylesheet">
-    <link rel="icon" href="img/r-favicon.ico" type="img/x-icon">
+
   </head>
 
   <body id="page-top">
@@ -41,17 +41,13 @@
               <a class="nav-link js-scroll-trigger" href="#about">About</a>
             </li>
             <li class="nav-item">
-              <!--<a class="nav-link js-scroll-trigger" href="#services">Services</a>-->
-              <a class="nav-link js-scroll-trigger" href="#skills">Skills</a>
+              <a class="nav-link js-scroll-trigger" href="#services">Services</a>
             </li>
-            <!-- <li class="nav-item">
+            <li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="#portfolio">Portfolio</a>
             </li>
             <li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
-            </li> -->
-            <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#publications">Publications</a>
             </li>
           </ul>
         </div>
@@ -75,70 +71,18 @@
       </div>
     </header>
 
-    <!-- about -->
     <section class="bg-primary" id="about">
       <div class="container">
         <div class="row">
-          <!-- include image profile -->
-          <div class="col-lg-2 mx-auto">
-            <div class="d-none d-lg-block">
-              <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="img/profile.png" alt="">
-            </div>
-          </div>
-          <!-- end profile -->
           <div class="col-lg-8 mx-auto text-center">
             <h2 class="section-heading text-white">About</h2>
             <hr class="light my-4">
             <p class="text-faded mb-4">I received my MSc degree in Computer Science from the Federal University of Bahia (UFBA), in 2018, and my BSc in Computer Networks from the Federal University of Ceará (UFC) in 2014.</p>
-            <a class="btn btn-light btn-xl js-scroll-trigger" href="#skills">Skills</a>
-          </div>
-        </div>
-
-        <div class="col-lg-3 bg-white">
-          <div class="social-icons text-center">
-            <a href="http://lattes.cnpq.br/3102385411862897" target="_blank">
-              CV<i class="ai ai-lattes-square"> </i>
-            </a>
-            <a href="https://github.com/Renato2012" target="_blank">
-              <i class="fab fa-github"> </i>
-            </a>
-            <a href="https://www.researchgate.net/profile/Renato_Araujo9" target="_blank">
-              <i class="fab fa-researchgate"> </i>
-            </a>
-            <a href="https://www.linkedin.com/in/renato-araujo9/" target="_blank">
-              <i class="fab fa-linkedin"> </i>
-            </a>
-          </div>
-        </div>
-
-      </div>
-    </section>
-
-
-    <!-- skills -->
-    <section id="skills">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-10 mx-auto text-center">
-            <h2 class="section-heading">Skills </h2>
-              <hr class="my-4">
-            <!---->
-            <ul class="list-inline dev-icons">
-              <li class="list-inline-item">
-                <i class="fab fa-python"> </i>
-                <i class="fab fa-cpp"> </i>
-                <i class="fab fa-sh"> </i>
-                <i class="fab fa-linux"> </i>
-                <i class="fab fa-windows"> </i>
-                <i class="fab fa-git-square"> </i>
-              </li>
-            </ul>
-              <a class="btn btn-light btn-xl sr-button" href="#publications">Publications</a>
+            <a class="btn btn-light btn-xl js-scroll-trigger" href="#services">Get Started!</a>
           </div>
         </div>
       </div>
     </section>
-
 
 <!--
     <section id="services">
@@ -290,8 +234,6 @@
       </div>
     </section>
 -->
-
-<!--
     <section id="contact">
       <div class="container">
         <div class="row">
@@ -315,9 +257,7 @@
         </div>
       </div>
     </section>
-  -->
 
-    <!-- publications -->
     <section id="publications">
       <div class="container">
         <div class="row">
@@ -325,55 +265,67 @@
             <h2 class="section-heading">Publications </h2>
           </div>
           <div class="col-lg-12 mx-auto text-left">
-          <hr class="my-4"> <!-- linha laranja abaixo do título -->
-
+            <!--><hr class="my-4">
+            
             <!-- 2018 -->
             <h4 class="mb-3">2018 </h4>
             <ul>
-              <li>SOUSA, A. M.; <b>ARAÚJO, F. R. C.</b>; SAMPAIO, L. N.. <a href="https://ieeexplore.ieee.org/abstract/document/8379540/" target="_blank">A Link-Stability-Based Interest-Forwarding Strategy For Vehicular Named Data Networks</a>. IEEE INTERNET COMPUTING, v. 22, p. 16-26, 2018.</li>
-              <li><b>ARAÚJO, F. R. C.</b>; SOUSA, A. M.; SAMPAIO, L. N.. <a href="http://portaldeconteudo.sbc.org.br/index.php/sbrc/article/view/2462" target="_blank">Armazenamento Oportunista em Redes de Dados Nomeados Sem Fio como Suporte à Mobilidade de Produtores</a>. In: Simpósio Brasileiro de Redes de Computadores e Sistemas Distribuídos (SBRC), 2018, Campos do Jordão. Anais do XXXVI SBRC 2018. Porto Alegre: Sociedade Brasileira de Computação (SBC), 2018. v. 36.</li>
-              <li>SOUSA, A. M.; <b>ARAÚJO, F. R. C.</b>; SAMPAIO, L. N.. <a href="http://portaldeconteudo.sbc.org.br/index.php/sbrc/article/view/2461" target="_blank">Encaminhamento Seletivo de Interesses em Redes Veiculares de Dados Nomeados Baseado no Tempo de Vida do Enlace</a>. In: Simpósio Brasileiro de Redes de Computadores e Sistemas Distribuídos (SBRC), 2018, Campos do Jordão. Anais do XXXVI SBRC 2018. Porto Alegre: Sociedade Brasileira de Computação (SBC), 2018. v. 36.</li>
+              <li>SOUSA, A. M.; <b>ARAÚJO, F. R. C.</b>; SAMPAIO, L. N.. A Link-Stability-Based Interest-Forwarding Strategy For Vehicular Named Data Networks. IEEE INTERNET COMPUTING, v. 22, p. 16-26, 2018.</li> 
+              <li><b>ARAÚJO, F. R. C.</b>; SOUSA, A. M.; SAMPAIO, L. N.. Armazenamento Oportunista em Redes de Dados Nomeados Sem Fio como Suporte à Mobilidade de Produtores. In: Simpósio Brasileiro de Redes de Computadores e Sistemas Distribuídos (SBRC), 2018, Campos do Jordão. Anais do XXXVI SBRC 2018. Porto Alegre: Sociedade Brasileira de Computação (SBC), 2018. v. 36.</li> 
+              <li>SOUSA, A. M.; <b>ARAÚJO, F. R. C.</b>; SAMPAIO, L. N.. Encaminhamento Seletivo de Interesses em Redes Veiculares de Dados Nomeados Baseado no Tempo de Vida do Enlace. In: Simpósio Brasileiro de Redes de Computadores e Sistemas Distribuídos (SBRC), 2018, Campos do Jordão. Anais do XXXVI SBRC 2018. Porto Alegre: Sociedade Brasileira de Computação (SBC), 2018. v. 36.</li>
             </ul>
 
             <!-- 2017 -->
             <h4 class="mb-3">2017 </h4>
             <ul>
-              <li><b>ARAÚJO, F. R. C.</b>; SAMPAIO, L. N.. <a href="https://sbrc2017.ufpa.br/wp-content/uploads/2017/05/proceedingsWP2P2017.pdf#page=19" target="_blank">Mobilidade em NDN: Consumidores versus Produtores</a>. In: Workshop de Redes P2P, Dinâmicas, Sociais e Orientadas a Conteúdo (SBRC/WP2P+), 2017, Belém. Anais do XIII WP2P+. Porto Alegre: Sociedade Brasileira de Computação (SBC), 2017. v. 13. p. 8-13.</li>
+              <li><b>ARAÚJO, F. R. C.</b>; SAMPAIO, L. N.. Mobilidade em NDN: Consumidores versus Produtores. In: Workshop de Redes P2P, Dinâmicas, Sociais e Orientadas a Conteúdo (SBRC/WP2P+), 2017, Belém. Anais do XIII WP2P+. Porto Alegre: Sociedade Brasileira de Computação (SBC), 2017. v. 13. p. 8-13.</li>
             </ul>
 
             <!-- 2016 -->
             <h4 class="mb-3">2016 </h4>
             <ul>
-              <li><b>ARAÚJO, F. R. C.</b>; REGO, P. A. L. ; BONFIM, M. S. ; SOUZA, A. B. ; SOUZA, J. N.. <a href="http://www.sbrc2016.ufba.br/downloads/anais/Workshops/proceedingsWCGA2016.pdf#page=161" target="_blank">Uso Oportunístico de Recursos Computacionais em Nuvens Privadas</a>. In: Workshop de Computação em Clouds e Aplicações (SBRC/WCGA), 2016, Salvador. Anais do XIV WCGA. Porto Alegre: Sociedade Brasileira de Computação (SBC), 2016. v. 14. p. 148-161.</li>
+              <li><b>ARAÚJO, F. R. C.</b>; REGO, P. A. L. ; BONFIM, M. S. ; SOUZA, A. B. ; SOUZA, J. N. . Uso Oportunístico de Recursos Computacionais em Nuvens Privadas. In: Workshop de Computação em Clouds e Aplicações (SBRC/WCGA), 2016, Salvador. Anais do XIV WCGA. Porto Alegre: Sociedade Brasileira de Computação (SBC), 2016. v. 14. p. 148-161.</li>
             </ul>
-
+            
             <!-- 2015 -->
             <h4 class="mb-3">2015 </h4>
             <ul>
-              <li><b>ARAÚJO, F. R. C.</b>. <a href="http://anaiserimt.ic.ufmt.br/index.php/erimt/article/view/7" target="_blank">Uso de Ambientes Virtualizados para o Ensino de Infraestrutura de Redes</a>. In: Escola Regional de Informática de Mato Grosso (ERI-MT), 2015, Cuiabá. Anais da VI ERI-MT. Porto Alegre: Sociedade Brasileira de Computação (SBC), 2015. v. 6. p. 208-210.</li>
+              <li><b>ARAÚJO, F. R. C.</b>. Uso de Ambientes Virtualizados para o Ensino de Infraestrutura de Redes. In: Escola Regional de Informática de Mato Grosso (ERI-MT), 2015, Cuiabá. Anais da VI ERI-MT. Porto Alegre: Sociedade Brasileira de Computação (SBC), 2015. v. 6. p. 208-210.</li>
             </ul>
 
             <!-- 2014 -->
             <h4 class="mb-3">2014 </h4>
             <ul>
-              <li><b>ARAÚJO, F. R. C.</b>. <a href="http://www.repositorio.ufc.br/handle/riufc/25186" target="_blank">Uso Oportunístico de Recursos Computacionais Ociosos Através da Virtualização</a>. In: Universidade Federal do Ceará (UFC), 2014, Quixadá. TCC. p. 1-39.</li>
+              <li><b>ARAÚJO, F. R. C.</b>. Uso Oportunístico de Recursos Computacionais Ociosos Através da Virtualização. In: Universidade Federal do Ceará (UFC), 2014, Quixadá. TCC. p. 1-39.</li>
             </ul>
 
            <!-- First Publications -->
            <div class="col-lg-8 mx-auto text-center">
-             <h3 class="section-heading">First Publications </h3>
-             <hr class="my-3"> <!-- linha laranja abaixo do título -->
+             <h2 class="section-heading">First Publications </h2>
            </div>
+           <div class="col-lg-12 mx-auto text-left">
              <!-- 2014 -->
              <h4 class="mb-3">2014 </h4>
              <ul>
-               <li><b>ARAÚJO, F. R. C.</b>; SOUSA, F. P. O. ; REGO, P. A. L.. <a href="https://www.quixada.ufc.br/wp-content/uploads/2015/06/Encontros-Universit%C3%A1rios-2014.pdf#page=249" target="_blank">Utilizando Ambientes Virtualizados para Práticas de Laboratório de Infraestrutura de Redes</a>. In: Encontros Universitários da Universidade Federal do Ceará (EU/UFC), 2014, Quixadá. Anais do IV EU/UFC. Quixadá: UFC, 2014.</li>
-               <li>SOUSA, F. P. O.; <b>ARAÚJO, F. R. C.</b>; REGO, P. A. L.. <a href="https://www.quixada.ufc.br/wp-content/uploads/2015/06/Encontros-Universit%C3%A1rios-2014.pdf#page=130" target="_blank">Habilitando Diferentes Visões e Cotas de Usuário no OpenNebula</a>. In: Encontros Universitários da Universidade Federal do Ceará (EU/UFC), 2014, Quixadá. Anais do IV EU/UFC. Quixadá: UFC, 2014.</li>
+               <li><b>ARAÚJO, F. R. C.</b>; SOUSA, F. P. O. ; REGO, P. A. L.. Utilizando Ambientes Virtualizados para Práticas de Laboratório de Infraestrutura de Redes. In: Encontros Universitários da Universidade Federal do Ceará (EU/UFC), 2014, Quixadá. Anais do IV EU/UFC. Quixadá: UFC, 2014.</li>
+               <li>SOUSA, F. P. O.; <b>ARAÚJO, F. R. C.</b>; REGO, P. A. L.. Habilitando Diferentes Visões e Cotas de Usuário no OpenNebula. In: Encontros Universitários da Universidade Federal do Ceará (EU/UFC), 2014, Quixadá. Anais do IV EU/UFC. Quixadá: UFC, 2014.</li>
              </ul>
            </div>
-         </div>
-       </div>
+          </div>
+        </div>
 
+        <div class="row">
+          <div class="col-lg-4 ml-auto text-center">
+            <i class="fas fa-phone fa-3x mb-3 sr-contact-1"></i>
+            <p>123-456-6789</p>
+          </div>
+          <div class="col-lg-4 mr-auto text-center">
+            <i class="fas fa-envelope fa-3x mb-3 sr-contact-2"></i>
+            <p>
+              <a href="mailto:your-email@your-domain.com">feedback@startbootstrap.com</a>
+            </p>
+          </div>
+        </div>
       </div>
     </section>
 
@@ -392,3 +344,4 @@
   </body>
 
 </html>
+
